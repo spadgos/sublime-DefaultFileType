@@ -1,0 +1,3 @@
+[
+    { "keys": ["super+n"], "command": "default_file_type" }
+]
