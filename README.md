@@ -21,6 +21,14 @@ Create a file in your `Packages/User` directory called `default_file_type.sublim
 - `default_new_file_syntax` *(String)* This is the path, relative to the Sublime base directory to the language file you'd like to load as the default. Default value is `"Packages/Java/Java.tmLanguage"`
 - `use_current_file_syntax` *(Boolean)* Set this to `true` to use the current file's syntax for the new file. If `false`, then the default (above) will always be used. Defauult value is `true`
 
+### Example _default_file_type.sublime-settings_ File ###
+Sublime Text preferences are written in JSON format as the following example shows:
+
+    {
+        "default_new_file_syntax" : "Packages/HTML/HTML.tmLanguage",
+        "use_current_file_syntax" : false
+    }
+
 Let me know if you have any problems or feature requests by adding an issue here: https://github.com/spadgos/sublime-DefaultFileType
 
 [package_control]: http://wbond.net/sublime_packages/package_control
