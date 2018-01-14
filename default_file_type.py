@@ -10,6 +10,6 @@ class Listener(sublime_plugin.EventListener):
             syntax = view.settings().get('syntax')
         else:
             syntax = settings.get('default_new_syntax')
-        print(syntax)
+
         # sublime.error_message("%s" % syntax)
         view.set_syntax_file(syntax)
