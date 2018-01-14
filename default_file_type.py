@@ -10,7 +10,7 @@ class DefaultFileTypeCommand(sublime_plugin.WindowCommand):
         if settings.get('use_current_syntax') and w.active_view():
             syntax = w.active_view().settings().get('syntax')
         else:
-            syntax = 'Packages/DefaultFileType/Syntaxes/' + settings.get('default_new_syntax')
+            syntax = 'Packages/Default File Type 3/Syntaxes/' + settings.get('default_new_syntax')
 
         view = w.new_file()
         # sublime.error_message("%s" % syntax)
