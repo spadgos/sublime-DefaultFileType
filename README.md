@@ -19,7 +19,7 @@ Edit the file `default_file_type.sublime-settings` in the Packages directory and
 - `default_new_syntax` *(String)* This is the default syntax each new window is set to. Default value is `"Python.sublime-syntax"`. 
   
   __Note:__ The syntax for each supported ST3 language is located in `Sublime Text 3/Packages/` (Most of them are just "$language.sublime-syntax")
-- `use_current_syntax` *(Boolean)* Set this to `true` to use the current file's syntax for the new file. If `false`, then the default (above) will always be used. Default value is `false`
+- `use_current_syntax` *(Boolean)* Set this to `true` to use the current file's syntax for the new file. If `false`, then the default (above) will always be used. Default value is `true`
 
 Let me know if you have any problems or feature requests by adding an issue here: https://github.com/spadgos/sublime-DefaultFileType
 
