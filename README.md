@@ -1,6 +1,6 @@
-This package sets the default file type of new files to be either the same as the current file, or a predefined default.
+This package is a fork of https://github.com/diegotf30/sublime-DefaultFileType, and sets the default file type of new files to be either the same as the current file, or a predefined default in Sublime Text 3.
 
-This only affects files which are created with the `Ctrl+N` shortcut (`Cmd+N` on OSX).
+This only affects files which are created with the `Ctrl+N` shortcut (`Cmd+N` on OSX), if you wish to change the hotkey you can modify it in the `Default.sublime-keymap` file.
 
 ## Installation ##
 
@@ -10,17 +10,17 @@ If you have the [Package Control][package_control] package installed, you can in
 
 ### Without Package Control ###
 
-Go to your Sublime Text 2 Packages directory and clone the repository using the command below:
+Go to your Sublime Text 3 Packages directory and clone the repository using the command below:
 
-    git clone https://github.com/spadgos/sublime-DefaultFileType.git DefaultFileType
+    git clone https://github.com/diegotf30/sublime-DefaultFileType.git DefaultFileType
 
 ## Configuration ##
 
-Create a file in your `Packages/User` directory called `default_file_type.sublime-settings` and you can set these options:
+Edit the file `default_file_type.sublime-settings` in the Packages directory and you can set these options:
 
-- `default_new_file_syntax` *(String)* This is the path, relative to the Sublime base directory to the language file you'd like to load as the default. Default value is `"Packages/Java/Java.tmLanguage"`
-- `use_current_file_syntax` *(Boolean)* Set this to `true` to use the current file's syntax for the new file. If `false`, then the default (above) will always be used. Default value is `true`
+- `default_new_syntax` *(String)* This is the default syntax each new window is set to. Default value is `"Python.sublime-syntax"`. The syntax for each supported ST3 language is located in `Packages/DefaultFileTypeST3/Syntaxes`
+- `use_current_syntax` *(Boolean)* Set this to `true` to use the current file's syntax for the new file. If `false`, then the default (above) will always be used. Default value is `false`
 
-Let me know if you have any problems or feature requests by adding an issue here: https://github.com/spadgos/sublime-DefaultFileType
+Let me know if you have any problems or feature requests by adding an issue here: https://github.com/diegotf30/sublime-DefaultFileType
 
 [package_control]: http://wbond.net/sublime_packages/package_control
