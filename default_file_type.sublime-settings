@@ -1,4 +1,4 @@
 {
-    "default_new_syntax": "Python.sublime-syntax",
-    "use_current_syntax": true
+    "default_new_syntax": "Packages/Python/Python.sublime-syntax",
+    "use_current_syntax": false
 }
