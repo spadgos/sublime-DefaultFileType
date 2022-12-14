@@ -10,7 +10,7 @@ If you have the [Package Control][package_control] package installed, you can in
 
 ### Without Package Control ###
 
-Go to your Sublime Text 2 Packages directory and clone the repository using the command below:
+Go to your Sublime Text Packages directory and clone the repository using the command below:
 
     git clone https://github.com/spadgos/sublime-DefaultFileType.git DefaultFileType
 
